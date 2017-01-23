@@ -1,0 +1,45 @@
+1. ECMAScript er grunnurinn af javascript, jscript og actionscript þetta er eins og sithvor gerðin t.d dodge charger hellcat og dodge challange hellcat sithvor bílinn en með sömu vel. ecma er grunnurinn og hitt byggist ovaná ecma eins og grunnur svo kemur dren sandu og svu gólf platan svo húsið.
+
+2. þú geturð sett það nánast hvar sem er í textan, þú þarf varla að gera nokkuð nema setja inn objects eða eitthvað þá átt og kalla svo á aðferðina vegna browserinn gerir rest.
+
+3. ég hef ekki fundið neinn mun hef prufað það og engin munur er.
+	það er engin munur
+
+4. breytan er ekki með neitt gildi
+
+5.ef þú ert með == er bara eins og venjulegt eins og í stærðfræði dæmi en ef þú notar 3 þá breytur hvort það sé strengur eða ing
+
+6. vegna hun hefur gildið null
+
+7. 
+
+9. let er bundið inn í {} en fer ekki út fyrir slaufasvigann en var er global dugar út um allt getur kallað á það inn í slaufusviga og útur honum en ekki með let.
+
+10. scoping = geymir objects og lifir eins lengi og síðan er í gangi.
+
+11. hoisting er þannig að getur gefið breytunni gildi langt áður enn hún er búin til hún raðast sjálf t.d
+	nafnkisa("keiko");
+
+	function nafnkisa(name){
+	console.log("Tígull átti bróðir sem hét " + name);
+	}
+	prentar ut = Tígull átti bróðir sem hét keiko
+
+	gæti líka látið fyrir neðan myndi sammt virka
+
+12. strict mode virkar ekki í alla browsera en flesta það lagar t.d villur eða hendir þeim og printar ekki út error
+
+14. function foo() {
+		function bar() { // function bar fær gildið 3
+		return 3;
+		}
+		return bar();
+		function bar() { // function bar fær gildið 8 yfir 3 og 3 er hent svo dæmið skilar bara 8
+		return 8;
+		}
+	}
+	alert(foo());
+
+	byrtir 8
+
+15.
